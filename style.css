@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.banner-section-bg-container {
+  background-image: url("https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz");
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-card {
+  text-align: center;
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 10px;
+  height: 250px;
+}
+
+.banner-heading {
+  color: black;
+  font-family: "BreeSerif";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner-caption {
+  color: black;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.custom-button {
+  color: white;
+  background-image: linear-gradient(#25b1cc, #14b2b8);
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.visualizer-bg-container {
+  background-image: url("https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80");
+  height: 130vh;
+  background-size: cover;
+  padding: 24px;
+}
+
+.visualizer-heading {
+  color: white;
+  font-family: "BreeSerif";
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.visualizer-card-container {
+  background-color: transparent;
+  padding: 16px;
+  margin-bottom: 25px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.visualizer-card-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.visualizer-card-description {
+  color: whi;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.visualizer-card-image {
+  width: 90px;
+  height: 140px;
+}
+
+.visualizer-card-text-container {
+  margin-right: 15px;
+}
+
+.visualizer-card-button {
+  background-color: #edf2f7;
+  color: #183b56;
+  height: 50px;
+  width: 120px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0px;
+  font-weight: bold;
+}
