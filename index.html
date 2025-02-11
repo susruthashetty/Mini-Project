@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
+  <body>
+    <div id="sectionHome">
+      <div
+        class="banner-section-bg-container d-flex justify-content-end flex-column"
+      >
+        <div class="banner-card">
+          <div class="text-center">
+            <h1 class="banner-heading mb-3">Algorithm Visualizer</h1>
+            <p class="banner-caption mb-4">
+              The greatest value of a picture is when it forces us to notice
+              what we never expected to see.
+            </p>
+            <button
+              class="custom-button"
+              onclick="display('sectionAlgorithmVisualizer')"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sectionAlgorithmVisualizer">
+      <div class="visualizer-bg-container" id="SectionHome2">
+        <h1 class="visualizer-heading">Algorithm Visualizer</h1>
+        <div
+          class="visualizer-card-container d-flex flex-row"
+          onclick="display('sectionBubbleSorting')"
+        >
+          <div>
+            <a href="Sorting techniques/index1.html">
+              <h1 class="visualizer-card-heading">Bubble Sort Visualizer</h1>
+              <p class="visualizer-card-description">
+                Bubble sort is a simple sorting algorithm that repeatedly steps
+                through the input list element by element, comparing the current
+                element with the one after it, swapping their values if needed.
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="visualizer-card-container d-flex flex-row"
+          onclick="display('sectionSelectionSorting')"
+        >
+          <div>
+            <a href="Sorting techniques/index2.html">
+              <h1 class="visualizer-card-heading">Selection Sort Visualizer</h1>
+              <p class="visualizer-card-description">
+                Selection sort is a simple and efficient sorting algorithm that
+                works by repeatedly selecting the smallest (or largest) element
+                from the unsorted portion of the list and moving it to the
+                sorted portion of the list.
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="visualizer-card-container d-flex flex-row"
+          onclick="display('sectionInsertionSorting')"
+        >
+          <div>
+            <a href="Sorting techniques/index3.html">
+              <h1 class="visualizer-card-heading">Insertion Sort Visualizer</h1>
+              <p class="visualizer-card-description">
+                Insertion sort is a simple sorting algorithm that works similar
+                to the way you sort playing cards in your hands. The array is
+                virtually split into a sorted and an unsorted part. Values from
+                the unsorted part are picked and placed at the correct position
+                in the sorted part.
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="visualizer-card-container d-flex flex-row"
+          onclick="display('sectionQuickSorting')"
+        >
+          <div>
+            <a href="Sorting techniques/index4.html">
+              <h1 class="visualizer-card-heading">Quick Sort Visualizer</h1>
+              <p class="visualizer-card-description">
+                QuickSort is a Divide and Conquer algorithm. It picks an element
+                as a pivot and partitions the given array around the picked
+                pivot. There are many different versions of quickSort that pick
+                pivot in different ways.
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="visualizer-card-container d-flex flex-row"
+          onclick="display('sectionQuickSorting')"
+        >
+          <div>
+            <a href="Sorting techniques/index5.html">
+              <h1 class="visualizer-card-heading">Merge Sort Visualizer</h1>
+              <p class="visualizer-card-description">
+                Merge sort is a sorting algorithm that works by dividing an
+                array into smaller subarrays, sorting each subarray, and then
+                merging the sorted subarrays back together to form the final
+                sorted array.
+              </p>
+            </a>
+          </div>
+        </div>
+        <button class="visualizer-card-button" onclick="display('sectionHome')">
+          Back
+        </button>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
